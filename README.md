@@ -1,7 +1,7 @@
 # html-css
  Curso Html
 
- <p><a href="https://douglasjhonyy.github.io/html-css/Exercicios/ex001/index.html"> Executar o exrcicio 001</p>
+ <a href="https://douglasjhonyy.github.io/html-css/Exercicios/ex001/index.html"> Executar o exrcicio 001
  <a href="https://douglasjhonyy.github.io/html-css/Exercicios/ex001/index.html"> Executar o exrcicio 002
  <a href="https://douglasjhonyy.github.io/html-css/Exercicios/ex002/index.html"> Executar o exrcicio 003
  <a href="https://douglasjhonyy.github.io/html-css/Exercicios/ex003/index.html"> Executar o exrcicio 004
