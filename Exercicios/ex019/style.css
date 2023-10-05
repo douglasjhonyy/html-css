@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+background-color: cornflowerblue;
+}
+
+h1{
+    color: rgb(4, 0, 255);
+
+}
+h1#Principal{
+    font-style: oblique;
+    color: darkblue;
+    font-size: 60px;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.basico {
+    color: crimson;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: darkmagenta;
+}
+
+h2{
+color: rgb(30, 33, 210);
+
+}
