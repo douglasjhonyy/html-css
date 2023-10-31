@@ -10,6 +10,8 @@
         }
         table{
             width: 500px;
+            position: relative;
+            border-collapse: collapse ;
         }
         caption{
             padding: 10px;
@@ -27,6 +29,13 @@
             background-color: gray;
             color: white;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+         }
+
         tbody > tr:nth-child(2n) {
             	background-color: lightgray;
 	}
