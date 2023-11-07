@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela</title>
+    <title>Tabela
+    </title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -12,11 +13,10 @@
             width: 500px;
             border-collapse: collapse;
         }
-
-        th, td{
-            border: 1px solid black;
+        td, th{
             padding: 10px;
-
+            border: 1px solid black;
+            text-align: center;
         }
         thead{
             background-color: gray;
@@ -29,14 +29,15 @@
     </style>
 </head>
 <body>
+    <h1>Medias escolares do ano</h1>
     <table>
+        <caption><strong>Media Anual</strong></caption>
         <thead>
             <tr>
-                <th rowspan="2" scope="col">Area</th>
+                <th rowspan="2">Area</th>
                 <th rowspan="2">Diciplina</th>
                 <th colspan="2">Notas</th>
-                <th rowspan="2" id="media">Média</th>
-            
+                <th rowspan="2">Media</th>
             </tr>
             <tr>
                 <th>Nota 1</th>
@@ -45,53 +46,54 @@
         </thead>
         <tbody>
             <tr>
-                <th scope="col" rowspan="4">Extras</th>
-                <td>Matematica</td>
+                <th rowspan="4">Exatas</th>
+                <td>Matematicas</td>
                 <td>0.0</td>
                 <td>0.0</td>
-                <td id="media">0.0</td>
+                <td>0.0</td>
             </tr>
             <tr>
                 <td>Fisica</td>
                 <td>0.0</td>
                 <td>0.0</td>
-                <td id="media">0.0</td>
+                <td>0.0</td>
             </tr>
             <tr>
                 <td>Quimica</td>
                 <td>0.0</td>
                 <td>0.0</td>
-                <td id="media">0.0</td>
+                <td>0.0</td>
             </tr>
             <tr>
                 <td>Biologia</td>
                 <td>0.0</td>
                 <td>0.0</td>
-                <td id="media">0.0</td>
+                <td>0.0</td>
             </tr>
-            <tr>
-                <th scope="row" id="media" colspan="4">Media de exatas</th>
-                <td id="media">0.0</td>
+            <tr id="media" >
+                <th colspan="4">Media Exatas</th>
+                <td>0.00</td>
             </tr>
+
             <tr>
-                <th scope="col" rowspan="2">Humanas</th>
+                <th rowspan="2">Humanas</th>
                 <td>Historia</td>
                 <td>0.0</td>
                 <td>0.0</td>
-                <td id="media">0.0</td>
+                <td>0.0</td>
             </tr>
             <tr>
                 <td>Geografia</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td id="media">0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
-            <tr>
-                <th scope="row" id="media" colspan="4">Media de Humanas</th>
-                <td id="media">0.0</td>
+            <tr id="media" >
+                <th id="media" colspan="4">Media Humana</th>
+                <td>0.0</td>
             </tr>
         </tbody>
-        <tfoot></tfoot>
     </table>
+    
 </body>
 </html>
