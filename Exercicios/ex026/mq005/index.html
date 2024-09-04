@@ -10,10 +10,10 @@
 <body>
     <header> 
         <h1>Meu Site</h1>
-        <span id="burger" class="material-symbols-outlined">
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
             menu
             </span>
-        <menu>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Menu 1</a></li>
                 <li><a href="#">Menu 2</a></li>
@@ -31,6 +31,11 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea, error illo dolores deleniti optio ipsum blanditiis modi aliquid suscipit culpa earum, id dolorum neque odio voluptatem numquam eaque vitae?</p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            itens.style.display = 'block'
+        }
+    </script>
     
 </body>
 </html>

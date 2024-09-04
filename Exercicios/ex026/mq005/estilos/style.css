@@ -41,7 +41,7 @@ menu > ul {
 }
 
 menu >  ul > li > a{
-    display: block;
+    display: none;
     padding: 10px;
     text-align: center;
     text-decoration: none;
